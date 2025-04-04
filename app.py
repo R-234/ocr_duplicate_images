@@ -105,7 +105,7 @@ import os
 import io
 
 # Streamlit UI
-st.title("➕ Multiple Image Copy For Rishav Das Data Entry Operator")
+st.title("➕ Multiple Image Copy For Rishav")
 st.write("This App will Devlope by Rakesh Rathaur!")
 st.write("Rename your image with a number, and copies.")
 
@@ -125,7 +125,7 @@ if uploaded_file:
     num_copies = st.number_input(
         "Number of copies", 
         min_value=1, 
-        max_value=10, 
+        max_value=30, 
         value=5
     )
 
