@@ -105,6 +105,14 @@ import os
 import io
 from PyPDF2 import PdfReader, PdfWriter
 
+# Configure page with centered layout
+st.set_page_config(
+    page_title="🖼️ Image Copies Processor",
+    page_icon="✨",
+    layout="centered",
+    initial_sidebar_state="collapsed"
+)
+
 # Streamlit UI
 st.title("➕ Multiple File Copy Generator")
 st.write("Developed by Rakesh Rathaur")
